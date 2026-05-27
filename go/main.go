@@ -3,8 +3,6 @@
 import "fmt"
 
 func main() {
-	fmt.Print("\033[H\033[2J")
-
-
-
+	fmt.Println("Learning Go")
+	fmt.Println("Roadmap: 0 -> Architect")
 }
