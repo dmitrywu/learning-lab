@@ -3,6 +3,9 @@
 import "fmt"
 
 func main() {
-	fmt.Println("Learning Go")
-	fmt.Println("Roadmap: 0 -> Architect")
+	language := "Go"
+	stage := "basics"
+	const goal = "architect"
+
+	fmt.Printf("Language: %s | Stage: %s | Goal: %s\n", language, stage, goal)
 }

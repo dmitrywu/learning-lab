@@ -1,12 +1,12 @@
-.PHONY: build build-console run stop clean
+.PHONY: build run clean
 
-BINARY_NAME=go_text.exe
+BINARY_NAME=go_lab.exe
 
-# Сборка в GUI-режиме (без появления окна консоли при запуске)
 build:
 	go build -o $(BINARY_NAME)
 
-# Сборка и запуск приложения в фоне
-run: 
+run:
 	go run .
 
+clean:
+	del /Q $(BINARY_NAME)
